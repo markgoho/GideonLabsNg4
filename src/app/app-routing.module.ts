@@ -22,10 +22,10 @@ const routes: Routes = [
 //     path: 'components',
 //     loadChildren: 'app/components/components.module#ComponentsModule'
 //   },
-//   {
-//     path: 'history',
-//     loadChildren: 'app/history/history.module#HistoryModule'
-//   },
+  {
+    path: 'history',
+    loadChildren: 'app/history/history.module#HistoryModule'
+  },
 //   {
 //     path: 'for-sale',
 //     loadChildren: 'app/for-sale/for-sale.module#ForSaleModule'
